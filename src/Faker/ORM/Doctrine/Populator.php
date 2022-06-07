@@ -9,18 +9,7 @@ use Faker\Generator;
  * Service class for populating a database using the Doctrine ORM or ODM.
  * A Populator can populate several tables using ActiveRecord classes.
  */
-class Populator
-{
-    /** @var int  */
-    protected $batchSize;
-
-    /** @var Generator  */
-    protected $generator;
-
-    /** @var ObjectManager|null  */
-    protected $manager;
-
-    /** @var array  */
+class Populator*/
     protected $entities = array();
 
     /** @var array  */

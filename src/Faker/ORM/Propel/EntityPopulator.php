@@ -12,9 +12,7 @@ class EntityPopulator
 {
     protected $class;
     protected $columnFormatters = array();
-    protected $modifiers = array();
-
-    /**
+    protected $m
      * Class constructor.
      *
      * @param string $class A Propel ActiveRecord classname

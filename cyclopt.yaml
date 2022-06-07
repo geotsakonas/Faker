@@ -1,0 +1,11 @@
+global:
+    violations:
+        exclude: 
+            - Object Operator Indentation
+modules:
+    - path: "/src/Faker/ORM"
+      languages:
+        - PHP
+      violations:
+        exclude:
+          - Missing File Doc Comment
